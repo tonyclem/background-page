@@ -1,0 +1,14 @@
+body{
+	background: blue;
+	font-size: 20rem;
+}
+
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+h1{
+	font-family: sans-serif;
+	color: green;
+}
