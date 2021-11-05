@@ -1,30 +1,20 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>JavaScript Function Sequence</h2>
-
-<p>JavaScript functions are executed in the sequence they are called.</p>
-
-<p id="demo"></p>
-
-<script>
-function myDisplayer(some) {
-  document.getElementById("demo").innerHTML = some;
+function myFunction(p1, p2) {
+  return p1 * p2;
 }
 
-function myFirst() {
-  myDisplayer("Hello");
-}
+console.table(myFunction);
 
-function mySecond() {
-  myDisplayer("Goodbye");
-}
+let car = "Fiat";
 
-myFirst();
-mySecond();
-</script>
+const car1 = {type:"Fiat", model:"500", color:"white"};
 
-</body>
-</html>
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
 
+let car = car1;
+
+car.unshift(person);
